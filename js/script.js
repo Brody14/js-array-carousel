@@ -50,7 +50,7 @@ let slideIndex = 0;
 arrowRight.addEventListener("click", function () {
      //console.log("Filloy fa schifo");
  
-      if (slideIndex < 5) {
+      if (slideIndex < slideElements.length - 1) {
           // cambio classi alle immagini
           let slideActive = slides[slideIndex];
           slideActive.classList.remove("active");
